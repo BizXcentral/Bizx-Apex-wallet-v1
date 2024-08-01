@@ -1,0 +1,43 @@
+{
+    "name": "@suite-native/module-home",
+    "version": "1.0.0",
+    "private": true,
+    "license": "See LICENSE.md in repo root",
+    "sideEffects": false,
+    "type": "module",
+    "main": "src/index",
+    "scripts": {
+        "lint:js": "yarn g:eslint '**/*.{ts,tsx,js}'",
+        "depcheck": "yarn g:depcheck",
+        "type-check": "yarn g:tsc --build"
+    },
+    "dependencies": {
+        "@react-navigation/native": "6.1.17",
+        "@react-navigation/native-stack": "6.9.26",
+        "@reduxjs/toolkit": "1.9.5",
+        "@suite-common/graph": "workspace:*",
+        "@suite-common/wallet-core": "workspace:*",
+        "@suite-native/analytics": "workspace:*",
+        "@suite-native/assets": "workspace:*",
+        "@suite-native/atoms": "workspace:*",
+        "@suite-native/biometrics": "workspace:*",
+        "@suite-native/blockchain": "workspace:*",
+        "@suite-native/device": "workspace:*",
+        "@suite-native/device-manager": "workspace:*",
+        "@suite-native/discovery": "workspace:*",
+        "@suite-native/feature-flags": "workspace:*",
+        "@suite-native/formatters": "workspace:*",
+        "@suite-native/graph": "workspace:*",
+        "@suite-native/intl": "workspace:*",
+        "@suite-native/navigation": "workspace:*",
+        "@suite-native/settings": "workspace:*",
+        "@suite-native/theme": "workspace:*",
+        "@suite-native/toasts": "workspace:*",
+        "@trezor/styles": "workspace:*",
+        "jotai": "1.9.1",
+        "react": "18.2.0",
+        "react-native": "0.74.1",
+        "react-native-svg": "15.3.0",
+        "react-redux": "8.0.7"
+    }
+}

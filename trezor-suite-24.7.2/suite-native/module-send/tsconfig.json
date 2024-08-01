@@ -1,0 +1,38 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": { "outDir": "libDev" },
+    "references": [
+        {
+            "path": "../../suite-common/redux-utils"
+        },
+        {
+            "path": "../../suite-common/validators"
+        },
+        {
+            "path": "../../suite-common/wallet-config"
+        },
+        {
+            "path": "../../suite-common/wallet-core"
+        },
+        {
+            "path": "../../suite-common/wallet-types"
+        },
+        {
+            "path": "../../suite-common/wallet-utils"
+        },
+        { "path": "../accounts" },
+        { "path": "../atoms" },
+        { "path": "../device-manager" },
+        { "path": "../device-mutex" },
+        { "path": "../formatters" },
+        { "path": "../forms" },
+        { "path": "../navigation" },
+        { "path": "../toasts" },
+        {
+            "path": "../../packages/blockchain-link-types"
+        },
+        { "path": "../../packages/connect" },
+        { "path": "../../packages/react-utils" },
+        { "path": "../../packages/utils" }
+    ]
+}

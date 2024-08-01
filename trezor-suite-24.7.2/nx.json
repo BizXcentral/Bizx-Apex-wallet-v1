@@ -1,0 +1,64 @@
+{
+    "extends": "nx/presets/npm.json",
+    "namedInputs": {
+        "sharedGlobals": [
+            "{workspaceRoot}/.yarnrc.yml",
+            "{workspaceRoot}/patches/*.patch",
+            "{workspaceRoot}/package.json"
+        ],
+        "default": ["{projectRoot}/**/*", "sharedGlobals"],
+        "prod": ["default", "!{projectRoot}/**/*.test.{ts,tsx}"]
+    },
+    "targetDefaults": {
+        "build:lib": {
+            "dependsOn": [],
+            "inputs": [
+                "^prod",
+                "{workspaceRoot}/tsconfig.base.json",
+                "{workspaceRoot}/tsconfig.lib.json"
+            ],
+            "outputs": ["{projectRoot}/lib", "{projectRoot}/build"],
+            "cache": true
+        },
+        "type-check": {
+            "dependsOn": [
+                "^type-check",
+                "^guide-pull-content",
+                "guide-pull-content",
+                "@suite-common/message-system:build:lib"
+            ],
+            "inputs": [
+                "^prod",
+                "{workspaceRoot}/tsconfig.base.json",
+                "{workspaceRoot}/tsconfig.lib.json"
+            ],
+            "outputs": ["{projectRoot}/libDev"],
+            "cache": true
+        },
+        "test:unit": {
+            "dependsOn": ["@suite-common/message-system:build:lib"],
+            "inputs": [
+                "^prod",
+                "{workspaceRoot}/jest.config.base.js",
+                "{workspaceRoot}/jest.config.native.js"
+            ],
+            "cache": true
+        },
+        "lint:js": {
+            "inputs": ["default", "{workspaceRoot}/.eslintrc.js"],
+            "outputs": ["{projectRoot}/.eslintcache"],
+            "cache": true
+        },
+        "lint:styles": {
+            "inputs": ["default", "{workspaceRoot}/.stylelintrc"],
+            "outputs": ["{projectRoot}/.stylelintcache"],
+            "cache": true
+        }
+    },
+    "affected": {
+        "defaultBase": "origin/develop"
+    },
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "nxCloudAccessToken": "NmE2NmFlYTUtN2JhZi00ZmQ3LWEyYzMtYWRkNzc3MTg0YmUyfHJlYWQ=",
+    "parallel": 3
+}

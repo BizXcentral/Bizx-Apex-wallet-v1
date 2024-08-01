@@ -1,0 +1,42 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": { "outDir": "libDev" },
+    "references": [
+        {
+            "path": "../../suite-common/formatters"
+        },
+        { "path": "../../suite-common/icons" },
+        {
+            "path": "../../suite-common/redux-utils"
+        },
+        {
+            "path": "../../suite-common/transaction-cache-engine"
+        },
+        {
+            "path": "../../suite-common/validators"
+        },
+        {
+            "path": "../../suite-common/wallet-config"
+        },
+        {
+            "path": "../../suite-common/wallet-core"
+        },
+        {
+            "path": "../../suite-common/wallet-types"
+        },
+        {
+            "path": "../../suite-common/wallet-utils"
+        },
+        { "path": "../alerts" },
+        { "path": "../atoms" },
+        { "path": "../config" },
+        { "path": "../ethereum-tokens" },
+        { "path": "../feature-flags" },
+        { "path": "../formatters" },
+        { "path": "../forms" },
+        { "path": "../intl" },
+        { "path": "../navigation" },
+        { "path": "../settings" },
+        { "path": "../../packages/styles" }
+    ]
+}

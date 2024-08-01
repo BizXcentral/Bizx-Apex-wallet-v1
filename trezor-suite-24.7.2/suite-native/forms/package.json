@@ -1,0 +1,22 @@
+{
+    "name": "@suite-native/forms",
+    "version": "1.0.0",
+    "private": true,
+    "license": "See LICENSE.md in repo root",
+    "sideEffects": false,
+    "main": "src/index",
+    "scripts": {
+        "lint:js": "yarn g:eslint '**/*.{ts,tsx,js}'",
+        "depcheck": "yarn g:depcheck",
+        "type-check": "yarn g:tsc --build"
+    },
+    "dependencies": {
+        "@hookform/resolvers": "3.3.4",
+        "@suite-common/icons": "workspace:*",
+        "@suite-native/atoms": "workspace:*",
+        "react": "18.2.0",
+        "react-hook-form": "^7.50.1",
+        "react-native": "0.74.1",
+        "yup": "^1.4.0"
+    }
+}

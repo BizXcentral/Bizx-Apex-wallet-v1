@@ -1,0 +1,87 @@
+/ci @vdovhanych @mroz22
+
+/.github/workflows @vdovhanych
+
+/docker @vdovhanych @mroz22
+
+/scripts @Nodonisko
+
+/packages/analytics @tomasklim
+
+/packages/blockchain-link @mroz22 @marekrjpolak
+
+/packages/blockchain-link-utils @marekrjpolak
+
+/packages/blockchain-link-types @marekrjpolak
+
+/packages/coinjoin @marekrjpolak @szymonlesisz
+
+/packages/components @jvaclavik @peter-sanderson
+
+/packages/connect @mroz22 @szymonlesisz @martykan
+
+/packages/connect-common @mroz22 @szymonlesisz @martykan
+
+/packages/connect-examples @mroz22 @szymonlesisz @martykan
+
+/packages/connect-explorer @mroz22 @szymonlesisz @martykan
+
+/packages/connect-iframe @mroz22 @szymonlesisz @martykan
+
+/packages/connect-plugin-ethereum @mroz22 @szymonlesisz @martykan
+
+/packages/connect-plugin-stellar @mroz22 @szymonlesisz @martykan
+
+/packages/connect-popup @mroz22 @szymonlesisz @martykan
+
+/packages/connect-web @mroz22 @szymonlesisz @martykan
+
+/packages/connect-webextension @mroz22 @karliatto @martykan
+
+/packages/icons @trezor/suite-mobile
+
+/suite-common/message-system @tomasklim @matejkriz
+
+/suite-common/token-definitions @tomasklim
+
+/packages/suite-analytics @tomasklim
+
+/packages/suite-build @komret
+
+/packages/suite-data @komret
+
+/packages/suite-desktop @komret
+
+/packages/suite-desktop-ui @komret
+
+/packages/suite-desktop-api @szymonlesisz @marekrjpolak
+
+/suite-native @trezor/suite-mobile
+
+/packages/suite-storage @matejkriz
+
+/packages/transport @mroz22
+
+/packages/transport-native @trezor/suite-mobile @Nodonisko
+
+/packages/theme @Nodonisko @jvaclavik @peter-sanderson
+
+/packages/urls @marekrjpolak
+
+/packages/utils @karliatto
+
+/packages/node-utils @karliatto
+
+/packages/utxo-lib @szymonlesisz
+
+/packages/styles @Nodonisko @jvaclavik @peter-sanderson
+
+/packages/suite/src/support/messages.ts @MiroslavProchazka
+
+/suite-common/graph @trezor/suite-mobile @Nodonisko
+
+/packages/connect/src/data/deviceAuthenticityConfig.ts @tsusanka
+
+/packages/schema-utils @martykan
+
+/packages/connect-explorer-theme @martykan

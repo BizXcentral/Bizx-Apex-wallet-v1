@@ -1,0 +1,27 @@
+{
+    "name": "@suite-native/qr-code",
+    "version": "1.0.0",
+    "private": true,
+    "license": "See LICENSE.md in repo root",
+    "sideEffects": false,
+    "main": "src/index",
+    "scripts": {
+        "lint:js": "yarn g:eslint '**/*.{ts,tsx,js}'",
+        "depcheck": "yarn g:depcheck",
+        "type-check": "yarn g:tsc --build"
+    },
+    "dependencies": {
+        "@react-navigation/core": "^6.4.10",
+        "@suite-common/wallet-config": "workspace:*",
+        "@suite-common/wallet-utils": "workspace:*",
+        "@suite-native/atoms": "workspace:*",
+        "@suite-native/helpers": "workspace:*",
+        "@suite-native/intl": "workspace:*",
+        "@trezor/styles": "workspace:*",
+        "@trezor/theme": "workspace:*",
+        "expo-barcode-scanner": "13.0.1",
+        "react": "18.2.0",
+        "react-native": "0.74.1",
+        "react-qr-code": "2.0.12"
+    }
+}

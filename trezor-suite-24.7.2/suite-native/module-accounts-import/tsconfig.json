@@ -1,0 +1,52 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": { "outDir": "libDev" },
+    "references": [
+        { "path": "../../suite-common/icons" },
+        {
+            "path": "../../suite-common/redux-utils"
+        },
+        {
+            "path": "../../suite-common/suite-config"
+        },
+        {
+            "path": "../../suite-common/token-definitions"
+        },
+        {
+            "path": "../../suite-common/validators"
+        },
+        {
+            "path": "../../suite-common/wallet-config"
+        },
+        {
+            "path": "../../suite-common/wallet-core"
+        },
+        {
+            "path": "../../suite-common/wallet-types"
+        },
+        {
+            "path": "../../suite-common/wallet-utils"
+        },
+        { "path": "../accounts" },
+        { "path": "../alerts" },
+        { "path": "../analytics" },
+        { "path": "../atoms" },
+        { "path": "../config" },
+        { "path": "../ethereum-tokens" },
+        { "path": "../feature-flags" },
+        { "path": "../formatters" },
+        { "path": "../forms" },
+        { "path": "../intl" },
+        { "path": "../navigation" },
+        { "path": "../qr-code" },
+        { "path": "../settings" },
+        { "path": "../video-assets" },
+        {
+            "path": "../../packages/blockchain-link-types"
+        },
+        { "path": "../../packages/connect" },
+        { "path": "../../packages/styles" },
+        { "path": "../../packages/utxo-lib" }
+    ],
+    "include": [".", "**/*.json"]
+}

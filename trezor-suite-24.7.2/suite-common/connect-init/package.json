@@ -1,0 +1,27 @@
+{
+    "name": "@suite-common/connect-init",
+    "version": "1.0.0",
+    "private": true,
+    "license": "See LICENSE.md in repo root",
+    "sideEffects": false,
+    "main": "src/index",
+    "scripts": {
+        "lint:js": "yarn g:eslint '**/*.{ts,tsx,js}'",
+        "type-check": "yarn g:tsc --build tsconfig.json",
+        "test:unit": "yarn g:jest -c ./jest.config.js",
+        "test-unit:watch": "yarn g:jest -c ../../jest.config.base.js -o --watch"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "1.9.5",
+        "@suite-common/redux-utils": "workspace:*",
+        "@suite-common/suite-types": "workspace:*",
+        "@suite-common/test-utils": "workspace:*",
+        "@suite-common/wallet-core": "workspace:*",
+        "@trezor/connect": "workspace:*",
+        "@trezor/utils": "workspace:*"
+    },
+    "devDependencies": {
+        "redux-mock-store": "^1.5.4",
+        "redux-thunk": "^2.4.2"
+    }
+}

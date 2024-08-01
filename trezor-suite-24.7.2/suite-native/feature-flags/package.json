@@ -1,0 +1,20 @@
+{
+    "name": "@suite-native/feature-flags",
+    "version": "1.0.0",
+    "private": true,
+    "license": "See LICENSE.md in repo root",
+    "sideEffects": false,
+    "main": "src/index",
+    "scripts": {
+        "lint:js": "yarn g:eslint '**/*.{ts,tsx,js}'",
+        "depcheck": "yarn g:depcheck",
+        "type-check": "yarn g:tsc --build"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "1.9.5",
+        "@suite-native/config": "workspace:*",
+        "@trezor/env-utils": "workspace:*",
+        "react-native": "0.74.1",
+        "react-redux": "8.0.7"
+    }
+}

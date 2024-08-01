@@ -1,0 +1,74 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": { "outDir": "./libDev" },
+    "references": [
+        {
+            "path": "../../suite-common/analytics"
+        },
+        {
+            "path": "../../suite-common/connect-init"
+        },
+        {
+            "path": "../../suite-common/formatters"
+        },
+        { "path": "../../suite-common/icons" },
+        {
+            "path": "../../suite-common/message-system"
+        },
+        {
+            "path": "../../suite-common/redux-utils"
+        },
+        {
+            "path": "../../suite-common/suite-constants"
+        },
+        {
+            "path": "../../suite-common/token-definitions"
+        },
+        {
+            "path": "../../suite-common/transaction-cache-engine"
+        },
+        {
+            "path": "../../suite-common/wallet-core"
+        },
+        { "path": "../accounts" },
+        { "path": "../alerts" },
+        { "path": "../analytics" },
+        { "path": "../atoms" },
+        { "path": "../biometrics" },
+        { "path": "../config" },
+        { "path": "../device" },
+        { "path": "../feature-flags" },
+        { "path": "../intl" },
+        { "path": "../message-system" },
+        { "path": "../module-accounts-import" },
+        {
+            "path": "../module-accounts-management"
+        },
+        { "path": "../module-add-accounts" },
+        { "path": "../module-connect-device" },
+        { "path": "../module-dev-utils" },
+        { "path": "../module-home" },
+        { "path": "../module-onboarding" },
+        { "path": "../module-passphrase" },
+        { "path": "../module-receive" },
+        { "path": "../module-send" },
+        { "path": "../module-settings" },
+        { "path": "../navigation" },
+        { "path": "../notifications" },
+        { "path": "../passphrase" },
+        { "path": "../receive" },
+        { "path": "../settings" },
+        { "path": "../state" },
+        { "path": "../storage" },
+        { "path": "../theme" },
+        { "path": "../toasts" },
+        { "path": "../transactions" },
+        { "path": "../../packages/connect" },
+        {
+            "path": "../../packages/react-native-usb"
+        },
+        { "path": "../../packages/styles" },
+        { "path": "../../packages/theme" }
+    ],
+    "include": [".", "**.json"]
+}

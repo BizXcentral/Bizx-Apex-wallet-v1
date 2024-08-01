@@ -1,0 +1,30 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "importHelpers": true,
+
+        "composite": false,
+        "incremental": false,
+        "declarationMap": true,
+        "noEmit": false,
+        "emitDeclarationOnly": false
+    },
+    "exclude": [
+        "**/node_modules",
+        "**/lib",
+        "**/libDev",
+        "**/build",
+        "**/build-electron",
+        "**/dist",
+        "**/coverage",
+        "**/public",
+        "**/tests",
+        "**/__tests__",
+        "**/__fixtures__",
+        "**/__mocks__/**",
+        "**/*.test.ts"
+    ]
+}

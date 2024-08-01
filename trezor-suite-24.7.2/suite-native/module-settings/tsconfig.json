@@ -1,0 +1,40 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": { "outDir": "libDev" },
+    "references": [
+        {
+            "path": "../../suite-common/analytics"
+        },
+        { "path": "../../suite-common/icons" },
+        {
+            "path": "../../suite-common/suite-config"
+        },
+        {
+            "path": "../../suite-common/suite-constants"
+        },
+        {
+            "path": "../../suite-common/suite-types"
+        },
+        {
+            "path": "../../suite-common/wallet-core"
+        },
+        { "path": "../alerts" },
+        { "path": "../analytics" },
+        { "path": "../atoms" },
+        { "path": "../biometrics" },
+        { "path": "../config" },
+        { "path": "../device-manager" },
+        { "path": "../feature-flags" },
+        { "path": "../intl" },
+        { "path": "../link" },
+        { "path": "../navigation" },
+        { "path": "../settings" },
+        { "path": "../storage" },
+        { "path": "../theme" },
+        { "path": "../toasts" },
+        { "path": "../../packages/connect" },
+        { "path": "../../packages/env-utils" },
+        { "path": "../../packages/styles" },
+        { "path": "../../packages/theme" }
+    ]
+}

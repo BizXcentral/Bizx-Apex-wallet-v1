@@ -1,0 +1,23 @@
+{
+    "name": "@suite-native/link",
+    "version": "1.0.0",
+    "private": true,
+    "license": "See LICENSE.md in repo root",
+    "sideEffects": false,
+    "main": "src/index",
+    "scripts": {
+        "lint:js": "yarn g:eslint '**/*.{ts,tsx,js}'",
+        "depcheck": "yarn g:depcheck",
+        "type-check": "yarn g:tsc --build"
+    },
+    "dependencies": {
+        "@suite-native/toasts": "workspace:*",
+        "@trezor/styles": "workspace:*",
+        "@trezor/theme": "workspace:*",
+        "react": "18.2.0"
+    },
+    "peerDependencies": {
+        "react-native": "*",
+        "react-native-reanimated": "*"
+    }
+}

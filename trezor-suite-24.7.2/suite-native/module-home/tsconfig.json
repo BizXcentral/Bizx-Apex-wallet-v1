@@ -1,0 +1,27 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": { "outDir": "libDev" },
+    "references": [
+        { "path": "../../suite-common/graph" },
+        {
+            "path": "../../suite-common/wallet-core"
+        },
+        { "path": "../analytics" },
+        { "path": "../assets" },
+        { "path": "../atoms" },
+        { "path": "../biometrics" },
+        { "path": "../blockchain" },
+        { "path": "../device" },
+        { "path": "../device-manager" },
+        { "path": "../discovery" },
+        { "path": "../feature-flags" },
+        { "path": "../formatters" },
+        { "path": "../graph" },
+        { "path": "../intl" },
+        { "path": "../navigation" },
+        { "path": "../settings" },
+        { "path": "../theme" },
+        { "path": "../toasts" },
+        { "path": "../../packages/styles" }
+    ]
+}

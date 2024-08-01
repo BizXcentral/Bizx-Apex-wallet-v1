@@ -1,0 +1,1 @@
+# trezor-suite-24.7.2

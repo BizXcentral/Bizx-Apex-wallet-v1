@@ -1,0 +1,15 @@
+{
+    "name": "suite-package-template",
+    "version": "1.0.0",
+    "main": "src/index",
+    "license": "See LICENSE.md in repo root",
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+        "depcheck": "yarn g:depcheck",
+        "type-check": "yarn g:tsc --build",
+        "lint:js": "yarn g:eslint '**/*.{ts,tsx,js}'",
+        "test:unit": "jest -c ../../jest.config.base.js"
+    },
+    "dependencies": {}
+}
